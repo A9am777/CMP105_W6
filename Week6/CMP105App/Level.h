@@ -4,6 +4,9 @@
 #include "Framework/Input.h"
 #include <string.h>
 #include <iostream>
+#include "Ball.h"
+#include "RailedObj.h"
+#include "AngryBird.h"
 
 
 class Level{
@@ -25,4 +28,8 @@ private:
 	Input* input;
 
 	// More level variables
+	Ball ball;
+	RailedObj onRail;
+	AngryBird bird;
+	sf::Texture ballTex;
 };
